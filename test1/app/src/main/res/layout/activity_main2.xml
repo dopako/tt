@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <Button
+      android:id="@+id/backButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="100dp"
+      android:layout_marginTop="44dp"
+      android:text="@string/backButton"
+      android:textColorHint="@color/white"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editFirmName" />
+
+  <Button
+      android:id="@+id/nextButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="44dp"
+      android:layout_marginEnd="100dp"
+      android:text="@string/nextButton"
+      android:textColorHint="@color/white"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editFirmName" />
+
+  <EditText
+    android:id="@+id/editOwnerName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="100dp"
+    android:layout_marginTop="68dp"
+    android:autofillHints=""
+    android:ems="10"
+    android:hint="@string/firmName"
+    android:inputType="textPersonName"
+    android:minHeight="48dp"
+    android:textColorHint="#757575"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+  <EditText
+    android:id="@+id/editFirmName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="100dp"
+    android:layout_marginTop="24dp"
+    android:autofillHints=""
+    android:ems="10"
+    android:hint="@string/firmName"
+    android:inputType="textPersonName"
+    android:minHeight="48dp"
+    android:textColorHint="#757575"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editPhoneNum" />
+
+  <EditText
+    android:id="@+id/editDescr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="100dp"
+    android:layout_marginTop="24dp"
+    android:autofillHints=""
+    android:ems="10"
+    android:hint="@string/descr"
+    android:inputType="textPersonName"
+    android:minHeight="48dp"
+    android:textColorHint="#757575"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editPrice" />
+
+  <EditText
+    android:id="@+id/editPrice"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="100dp"
+    android:layout_marginTop="20dp"
+    android:ems="10"
+    android:hint="@string/price"
+    android:inputType="numberDecimal"
+    android:minHeight="48dp"
+    android:textColorHint="#757575"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editOwnerName"
+    android:autofillHints="" />
+
+  <EditText
+    android:id="@+id/editPhoneNum"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="100dp"
+    android:layout_marginTop="20dp"
+    android:autofillHints=""
+    android:ems="10"
+    android:hint="@string/phoneNum"
+    android:inputType="phone"
+    android:minHeight="48dp"
+    android:textColorHint="#757575"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editDescr" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

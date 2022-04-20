@@ -1,0 +1,17 @@
+<resources>
+  <string name="app_name">test1</string>
+  <string name="text_step1">Car registration</string>
+  <string name="tag">19621648</string>
+  <string name="ownerName">Owner name</string>
+  <string name="price">Price</string>
+  <string name="descr">Description</string>
+  <string name="phoneNum">Phone number</string>
+  <string name="firmName">Firm name</string>
+  <string name="ownerNameError">Enter a valid owner name</string>
+  <string name="priceError">Enter a valid price</string>
+  <string name="descrError">Enter a valid description</string>
+  <string name="phoneNumError">Enter a valid phone number</string>
+  <string name="firmNameError">Enter a valid firm name</string>
+  <string name="backButton">Back</string>
+  <string name="nextButton">Next</string>
+</resources>
